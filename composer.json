@@ -1,0 +1,22 @@
+{
+    "name": "ubermanu/magento2-tko",
+    "description": "Replaces Magento 2's KnockoutJS implementation with TKO",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmanuel Vodor",
+            "email": "manu@paca.happy-dev.fr"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Ubermanu\\Tko\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
